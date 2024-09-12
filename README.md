@@ -74,6 +74,6 @@ didiernkunzumwami@gmail.com
 
 2. 
 
-#3Contributors
+## Contributors
 1. Jedidia Nkunzumwami
 didiernkunzumwami@gmail.com
