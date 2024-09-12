@@ -69,5 +69,11 @@ This project is licensed under the MIT License. See the [LICENSE](https://openso
 ## Contact
 For any inquiries or support, please contact:
 
-Jedidia Nkunzumwami
+1. Jedidia Nkunzumwami
+didiernkunzumwami@gmail.com
+
+2. 
+
+# Contributors
+1. Jedidia Nkunzumwami
 didiernkunzumwami@gmail.com
