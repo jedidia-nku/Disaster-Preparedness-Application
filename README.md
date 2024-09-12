@@ -72,8 +72,30 @@ For any inquiries or support, please contact:
 1. Jedidia Nkunzumwami
 didiernkunzumwami@gmail.com
 
-2. 
+2. Ben Macharia
+machariab19@gmail.com
+
+3. Bentegri Mohamed Yacine
+bentegrimohamed@gmail.com
+
+4. Thato Mongwe
+thatomongwe47@gmail.com
+
+5. Nickonyino
+bahatiluiz@gmail.com
 
 ## Contributors
 1. Jedidia Nkunzumwami
 didiernkunzumwami@gmail.com
+
+2. Ben Macharia
+machariab19@gmail.com
+
+3. Bentegri Mohamed Yacine
+bentegrimohamed@gmail.com
+
+4. Thato Mongwe
+thatomongwe47@gmail.com
+
+5. Nickonyino
+bahatiluiz@gmail.com
