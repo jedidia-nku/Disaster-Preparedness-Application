@@ -1,19 +1,25 @@
+// backend/app.js
 const express = require('express');
 const cors = require('cors');
-const weatherRoutes = require('./routes/weatherRoutes');
-const nasaRoutes = require('./routes/nasaRoutes');
-const googleMapsRoutes = require('./routes/googleMapsRoutes');
+const dotenv = require('dotenv');
+const axios = require('axios');
+
+dotenv.config();
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/weather', weatherRoutes);
-app.use('/api/satellite', nasaRoutes);
-app.use('/api/routes', googleMapsRoutes);
-
 const PORT = process.env.PORT || 5000;
+
+// Routes
+app.use('/api/weather', require('./routes/weather'));
+
+// Basic Home Route
+app.get('/', (req, res) => {
+  res.send('Disaster Preparedness API Running');
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
