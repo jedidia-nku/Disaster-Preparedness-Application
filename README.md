@@ -9,6 +9,11 @@ A sleek and modern weather application built using **React.js**, **Tailwind CSS*
 - **Location Search**: Users can search for weather updates by city or use their current location.
 - **Modern UI**: Styled with Tailwind CSS for a clean, responsive, and fast user experience.
 
+## APIs Used
+
+* [OpenWeatherMap API:](#) Provides real-time weather data, including forecasts and severe weather alerts.
+* [Google Maps API:](#) Used to display evacuation routes, shelter locations, and emergency services on a map.
+
 ## Tech Stack
 
 - **React.js**: For building a dynamic and interactive user interface.
