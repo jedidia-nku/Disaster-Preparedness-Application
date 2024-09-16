@@ -1,101 +1,36 @@
-# Disaster Preparedness Application
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Overview
+## Getting Started
 
-The **Disaster Preparedness Application** is designed to help communities prepare for and respond effectively to natural disasters such as hurricanes, floods, and other severe weather events. By leveraging real-time data from various APIs, this app empowers users with up-to-date information, evacuation plans, and access to critical services, ensuring timely action during emergencies.
+First, run the development server:
 
-### Key Features
-
-* **Real-Time Weather Updates:** Receive current weather information and forecasts for your location, powered by the **OpenWeatherMap API.**
-* **Disaster Alerts:** Get immediate alerts about natural disasters like hurricanes, floods, and storms.
-* **Satellite Imagery:** View the latest satellite images using the **NASA API** to visualize disaster-affected areas and make informed decisions.
-* **Evacuation Routes:** Access safe evacuation routes during emergencies with the **Google Maps API.**
-* **Shelter Locations:** Find the nearest shelters and emergency services such as hospitals, police stations, and fire departments.
-* **Emergency Services:** Access contact information for emergency services and rescue teams in your area.
-
-### APIs Used
-
-* [OpenWeatherMap API:](#) Provides real-time weather data, including forecasts and severe weather alerts.
-* [Google Maps API:](#) Used to display evacuation routes, shelter locations, and emergency services on a map.
-* [NASA API:](#) Offers satellite imagery and other space-based data to visualize natural disasters.
-
-## Tech Stack
-* **Frontend:**
-   * **React.js (Vite):** A fast frontend framework for building user interfaces.
-   * **Tailwind CSS:** A utility-first CSS framework to design responsive and modern UI components.
-* **Backend:**
-    * **Node.js with Express.js:** Handles API calls and business logic.
-    * **MySQL:** A relational database for storing user data and historical disaster records.
-
-## Installation & Setup
-1. **Clone the Repository**
-git clone https://github.com/username/disaster-preparedness-app.git
-cd disaster-preparedness-app
-2. **Backend Setup**
-    1. Install backend dependencies:
-    cd backend
-    npm install
-    2. Start the backend server:
-    npm start
-
-**3. Frontend Setup**
-1. Install frontend dependencies:
-cd frontend
-npm install
-
-2. Start the frontend development server:
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Usage
-Once the application is running, open the frontend in your browser (default is http://localhost:3000). The app will display real-time weather updates, disaster alerts, and maps with evacuation routes and nearby shelters.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Future Improvements
-* **Push Notifications:** Allow users to receive real-time alerts directly on their mobile devices.
-* **Offline Mode:** Enable the app to store critical information for offline use during network outages.
-* **User Customization:** Let users set custom locations for monitoring weather and disaster alerts for specific areas.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Contributing
-Contributions are welcome! If you would like to improve or add new features to the app, please follow these steps:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-1. Fork the repository.
-2. Create a new feature branch (git checkout -b feature/your-feature).
-3. Commit your changes (git commit -m 'Add your feature').
-4. Push to the branch (git push origin feature/your-feature).
-5. Open a pull request for review.
+## Learn More
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
+To learn more about Next.js, take a look at the following resources:
 
-## Contact
-For any inquiries or support, please contact:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Jedidia Nkunzumwami
-didiernkunzumwami@gmail.com
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-2. Ben Macharia
-machariab19@gmail.com
+## Deploy on Vercel
 
-3. Bentegri Mohamed Yacine
-bentegrimohamed@gmail.com
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-4. Thato Mongwe
-thatomongwe47@gmail.com
-
-5. Nickonyino
-bahatiluiz@gmail.com
-
-## Contributors
-1. Jedidia Nkunzumwami
-didiernkunzumwami@gmail.com
-
-2. Ben Macharia
-machariab19@gmail.com
-
-3. Bentegri Mohamed Yacine
-bentegrimohamed@gmail.com
-
-4. Thato Mongwe
-thatomongwe47@gmail.com
-
-5. Nickonyino
-bahatiluiz@gmail.com
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
