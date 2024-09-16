@@ -4,61 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disaster Preparedness App</title>
-    <!-- Tailwind CSS for modern styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            background: url('https://source.unsplash.com/1600x900/?nature,weather') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        .glass {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 30px;
-            color: white;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .input-container {
-            margin: 20px 0;
-        }
-
-        .weather-info p {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js" defer></script>
 </head>
-<body class="h-screen flex justify-center items-center">
+<body class="bg-cover">
+    <div class="container mx-auto text-center mt-20">
+        <h1 class="text-4xl font-bold mb-8">Disaster Preparedness App</h1>
+        <input
+            type="text"
+            id="locationInput"
+            placeholder="Enter Location"
+            class="border p-2 w-64 mb-4"
+        />
+        <button
+            onclick="getWeather()"
+            class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600"
+        >
+            Get Weather
+        </button>
 
-    <div class="glass w-full max-w-lg p-6 text-center">
-        <h1 class="text-4xl font-bold text-white">Disaster Preparedness App</h1>
-
-        <div class="input-container">
-            <input 
-                type="text" 
-                id="locationInput" 
-                class="mt-4 w-full px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" 
-                placeholder="Enter Location" />
-            <button 
-                onclick="getWeather()" 
-                class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
-                Get Weather
-            </button>
-        </div>
-
-        <div id="weatherInfo" class="weather-info mt-6 text-white">
-            <h2 class="text-2xl font-semibold">Weather Details</h2>
-            <p id="description" class="mt-2"></p>
-            <p id="temperature"></p>
-            <p id="humidity"></p>
-            <p id="windSpeed"></p>
+        <div id="weatherData" class="mt-8">
+            <p id="description" class="text-xl"></p>
+            <p id="temperature" class="text-xl"></p>
+            <p id="humidity" class="text-xl"></p>
+            <p id="windSpeed" class="text-xl"></p>
         </div>
     </div>
-
-    <script src="app.js"></script>
 </body>
 </html>
+

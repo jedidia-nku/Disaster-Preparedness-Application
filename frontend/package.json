@@ -1,0 +1,16 @@
+{
+  "name": "disaster-preparedness-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^2.5.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
+
