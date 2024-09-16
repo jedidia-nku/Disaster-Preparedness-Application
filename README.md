@@ -21,3 +21,37 @@ This app provides weather updates to help communities prepare for natural disast
    ```bash
    git clone https://github.com/your-repo/disaster-preparedness-app
 
+    Set up backend:
+
+    bash
+
+cd backend
+npm install
+npm start
+
+Set up frontend:
+
+bash
+
+cd frontend
+npm install
+npm run dev
+
+Access the frontend in your browser:
+
+bash
+
+    http://localhost:3000
+
+Environment Variables
+
+Make sure to create a .env file in the backend directory with the following:
+
+makefile
+
+OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
+NASA_API_KEY=your_nasa_api_key
+
+Credits
+
+Created by Thato Mongwe - Software Engineer
